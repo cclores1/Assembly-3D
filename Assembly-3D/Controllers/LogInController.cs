@@ -18,10 +18,13 @@ namespace Assembly_3D.Controllers
         {
             if (userModel.Username == "Carlo" && userModel.Password == "Clores")
             {
-                return View("LogInSucess", userModel);
+                return View("LogInSuccess", userModel);
             }
             else
+            { 
                 return View("LogInFailure", userModel);
+            }
+                
         }
         
     }
