@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Assembly_3D.Models;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,5 +13,16 @@ namespace Assembly_3D.Controllers
         {
             return View();
         }
+
+        public IActionResult ProcessLogIn(UserModel userModel)
+        {
+            if (userModel.Username == "Carlo" && userModel.Password == "Clores")
+            {
+                return View("LogInSucess", userModel);
+            }
+            else
+                return View("LogInFailure", userModel);
+        }
+        
     }
 }

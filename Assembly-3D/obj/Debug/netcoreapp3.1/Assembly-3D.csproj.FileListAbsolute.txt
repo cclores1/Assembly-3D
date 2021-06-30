@@ -394,3 +394,4 @@ C:\Users\Ossom\source\repos\assembly-3D\Assembly-3D\obj\Debug\netcoreapp3.1\Asse
 C:\Users\Ossom\source\repos\assembly-3D\Assembly-3D\obj\Debug\netcoreapp3.1\Assembly-3D.dll
 C:\Users\Ossom\source\repos\assembly-3D\Assembly-3D\obj\Debug\netcoreapp3.1\Assembly-3D.pdb
 C:\Users\Ossom\source\repos\assembly-3D\Assembly-3D\obj\Debug\netcoreapp3.1\Assembly-3D.genruntimeconfig.cache
+C:\Users\Ossom\source\repos\assembly-3D\Assembly-3D\obj\Debug\netcoreapp3.1\Razor\Views\LogIn\Index.cshtml.g.cs
