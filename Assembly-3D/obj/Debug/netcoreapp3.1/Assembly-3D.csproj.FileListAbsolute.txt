@@ -397,3 +397,9 @@ C:\Users\Ossom\source\repos\assembly-3D\Assembly-3D\obj\Debug\netcoreapp3.1\Asse
 C:\Users\Ossom\source\repos\assembly-3D\Assembly-3D\obj\Debug\netcoreapp3.1\Razor\Views\LogIn\Index.cshtml.g.cs
 C:\Users\Ossom\source\repos\assembly-3D\Assembly-3D\obj\Debug\netcoreapp3.1\Razor\Views\LogIn\LogInSuccess.cshtml.g.cs
 C:\Users\Ossom\source\repos\assembly-3D\Assembly-3D\obj\Debug\netcoreapp3.1\Razor\Views\LogIn\LogInFailure.cshtml.g.cs
+C:\Users\Ossom\source\repos\assembly-3D\Assembly-3D\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Ossom\source\repos\assembly-3D\Assembly-3D\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Ossom\source\repos\assembly-3D\Assembly-3D\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Ossom\source\repos\assembly-3D\Assembly-3D\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Ossom\source\repos\assembly-3D\Assembly-3D\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Ossom\source\repos\assembly-3D\Assembly-3D\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

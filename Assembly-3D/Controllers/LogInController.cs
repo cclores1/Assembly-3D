@@ -1,9 +1,12 @@
 ﻿using Assembly_3D.Models;
+using Assembly_3D.Services;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+
+
 
 namespace Assembly_3D.Controllers
 {
@@ -16,7 +19,8 @@ namespace Assembly_3D.Controllers
 
         public IActionResult ProcessLogIn(UserModel userModel)
         {
-            if (userModel.Username == "Carlo" && userModel.Password == "Clores")
+            SecurityServices securityService = new SecurityServices();
+            if(securityService.IsValid(userModel))
             {
                 return View("LogInSuccess", userModel);
             }
