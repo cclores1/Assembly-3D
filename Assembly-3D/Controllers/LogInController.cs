@@ -27,5 +27,10 @@ namespace Assembly_3D.Controllers
                 
         }
         
+
+        public IActionResult LogIn(UserModel userModel)
+        {
+            return View();
+        }
     }
 }
