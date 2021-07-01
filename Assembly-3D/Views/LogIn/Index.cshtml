@@ -2,7 +2,7 @@
 
 <h4>Welcome to Assembly.3D</h4>
 <hr />
-<div class="row">
+<div class="login">
     <div class="col-md-4">
         <form asp-action="ProcessLogIn">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
@@ -24,9 +24,9 @@
     </div>
 </div>
 
-<div>
+<footer>
     <a asp-action="Index">Back to List</a>
-</div>
+</footer>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

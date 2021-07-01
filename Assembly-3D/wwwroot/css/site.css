@@ -12,6 +12,37 @@ a {
   color: #0366d6;
 }
 
+.card{
+    border: none;
+}
+
+.mainpage {
+    padding-top: 100px;
+    padding-bottom: 10px;
+  
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.col-md-4{
+    justify-content: left;
+}
+
+.login {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+}
+/*
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+*/
 .btn-primary {
   color: #fff;
   background-color: #1b6ec2;
