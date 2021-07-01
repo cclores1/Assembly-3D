@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Assembly-3D",
+    "\\Assembly-3D\\Controllers",
+    "\\Assembly-3D\\Models",
+    "\\Assembly-3D\\Views",
+    "\\Assembly-3D\\Views\\LogIn"
+  ],
+  "SelectedNode": "\\Assembly-3D\\Controllers\\HomeController.cs",
+  "PreviewInSolutionExplorer": false
+}
