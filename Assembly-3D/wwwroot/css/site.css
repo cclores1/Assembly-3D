@@ -29,6 +29,10 @@ a {
     justify-content: left;
 }
 
+.card{
+    justify-content: space-evenly;
+}
+
 .login {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -36,13 +40,7 @@ a {
     justify-content: left;
     flex-direction: row;
 }
-/*
-.container {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-}
-*/
+
 .btn-primary {
   color: #fff;
   background-color: #1b6ec2;

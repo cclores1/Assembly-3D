@@ -404,3 +404,4 @@ C:\Users\Ossom\source\repos\assembly-3D\Assembly-3D\bin\Debug\netcoreapp3.1\runt
 C:\Users\Ossom\source\repos\assembly-3D\Assembly-3D\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Ossom\source\repos\assembly-3D\Assembly-3D\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\Ossom\source\repos\assembly-3D\Assembly-3D\obj\Debug\netcoreapp3.1\Razor\Views\Project\Index.cshtml.g.cs
+C:\Users\Ossom\source\repos\assembly-3D\Assembly-3D\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_navbar.cshtml.g.cs

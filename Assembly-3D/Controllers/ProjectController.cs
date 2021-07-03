@@ -1,4 +1,5 @@
 ﻿using Assembly_3D.Models;
+using Assembly_3D.Services;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -11,14 +12,21 @@ namespace Assembly_3D.Controllers
     {
         public IActionResult Index()
         {
-            List<PartsModel> partList = new List<PartsModel>();
+            HardCodedDataRepo hardCodedRepo = new HardCodedDataRepo();
 
-            partList.Add(new PartsModel { Id = 1, Name = "Duck", Description = "Duck" });
-            partList.Add(new PartsModel { Id = 1, Name = "Dog", Description = "Dog" });
-
-            return View(partList);
+            return View(hardCodedRepo.GetAllPart());
         }
 
+        public IActionResult InputForm()
+        {
+            return View();
+        }
+
+        public IActionResult ProcessCreate(int Id)
+        {
+
+            return View("UploadNewPart");
+        }
       
     }
 }

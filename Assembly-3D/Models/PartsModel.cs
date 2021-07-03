@@ -17,5 +17,9 @@ namespace Assembly_3D.Models
         [DisplayName("Part Description")]
         public string Description { get; set; }
 
+        internal object GetAllProducts()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
