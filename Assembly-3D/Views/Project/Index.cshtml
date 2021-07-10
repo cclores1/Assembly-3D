@@ -1,9 +1,16 @@
 ﻿@model IEnumerable<Assembly_3D.Models.PartsModel>
 
-<p>
-    <a asp-controller="" asp-action="Upload">Upload File</a>
+
+<div>
+    <h4>Upload File</h4>
+    <form asp-controller="Project" asp-action="Index" enctype="multipart/form-data" method="post">
+        <input type="file" name="file" />
+        <button type="submit">Upload</button>
+    </form>
+
+</div>
     
-</p>
+
 <h3>Choose your part.</h3>
 <div class="container d-flex flex-wrap">
     
